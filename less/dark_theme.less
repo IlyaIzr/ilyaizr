@@ -1,0 +1,253 @@
+@import "dark_colors.less";
+
+body{
+  background-color: @bg;
+  font-family: Arial, Helvetica, sans-serif;  
+} 
+body::-webkit-scrollbar-thumb {
+  background-color: @primary;
+  outline: 1px solid @alternative;
+}
+#svg_container_1{
+  #welcome{
+    color: @bg;
+  }
+  svg{
+    fill: @primary;
+    stroke: @primary;
+  }
+  .language_line{    
+    border-top: .25vw solid @bg ;
+    border-left: .25vw solid @bg ;
+  }
+  .theme_line{    
+    border-top: .25vw solid @bg ;
+    border-right: .25vw solid @bg ;
+  }
+  .theme_switcher{
+    color: @bg;
+    &:hover {
+      text-shadow: 15px 34px 35px whitesmoke;
+    }
+  }  
+}
+.language_switch{
+  label{
+    color: @bg;
+    &:hover {text-shadow: .5px .2px 1px @bg;}
+  }
+  .options{
+    background-color: @primary;
+    a{
+      &:visited {color: @bg;opacity: .9;}
+      &:hover {text-shadow: .5px .2px 1px @bg;}
+    }
+  }
+}
+.services_title_container{  
+  border-left: .25vw solid @alternative;
+  border-bottom: .25vw solid @alternative;
+  color: @alternative;
+  h2{    
+    color: @alternative;
+  }
+}
+.intro{
+  color: @primary;  
+  border-right: .25vw solid @primary;
+  border-bottom: .25vw solid @primary;
+  .intro_prefix{
+    color: @comment;
+  }
+  .intro_comment{    
+    color: @primary;
+  }
+}
+.left_offset_container{
+  .grey_dude{        
+    border-left: .25vw solid @comment;
+    opacity: .1;
+  }  
+}
+.services{  
+  border-left: .25vw solid @alternative;
+  color: @alternative;
+  h2{
+    color: @alternative;    
+  }
+  .container{
+    .services_options{      
+      color: @alternative;
+    }
+    .services_comment{
+      color: @comment;
+    }
+    #latter_phrase1{      
+      color: @primary;
+    }
+    #latter_phrase2{
+      color: @primary;
+    }
+  }
+}
+.improvments{
+  color: @alternative;
+  h2{
+    color: @alternative;
+  }
+  
+  h2.headline{
+    background-color: @bg;
+  }
+  .improvments_option{
+    color: @primary;
+  }
+  .improvments_comment{
+    color: @comment;
+  }
+  .improvments_expand{
+    color: @comment;
+    a{
+      color: @comment;
+      &:visited{
+        color: @comment;
+      }
+    }
+  }
+  .headline_prefix{
+    color: @alternative;
+  }
+  .headline_postfix{
+    color: @comment;
+  }
+}
+.skills{
+  .skills_option{
+    color: @primary;
+  }
+  .skills_comment{
+    color: @comment;
+  }
+  .skills_p{
+    color: @comment;
+  }
+}
+.work_process{
+  h2{
+    color: @warning;
+  }
+  .node{
+    h3{
+      color: @warning;
+    }
+    p{      
+      color: @primary;
+    }
+  }
+}
+.calendar{
+  h2{
+    color: @warning;
+  }
+  .calendar_scroller{
+    .day_cell{
+      color: @warning;
+    }
+    .busy{
+      color: @comment;
+    }
+    .vacant[data-tooltip]:before{
+      color: @warning;
+    }
+    &::-webkit-scrollbar-track
+    {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.623);
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.623);
+      background-color: @secondary;
+    }
+    &::-webkit-scrollbar
+    {
+      width: 12px;
+      background-color: @comment;
+    }
+    &::-webkit-scrollbar-thumb
+    {
+      background-color: @warning;
+    }
+  }
+}
+.prices{
+  border-left: .25vw solid #7c7c7c17;
+  color: #7c7c7c17;
+  h2{
+    color: @warning;
+  }
+  .description{
+    color: @secondary;
+  }
+  .price{
+    color: @primary;
+  }  
+  .odd{
+    .description{color: @warning;}
+    .price{color: @secondary;}
+  }
+}
+.examples{
+  h2{
+    color: @alternative;
+  }
+  .description{
+    color: @secondary;
+  }
+  .adresses{
+    color: @warning;
+    a{
+      color: @warning;
+      &:visited{
+        opacity: 1;
+      }
+    }
+  }
+}
+.other{
+  background-color: @bg;
+  h2{
+    color: @secondary;
+  }
+  .bio{
+    p{
+      color: @primary;
+    }
+  }
+  .hobbies{
+    h3{
+      color: @secondary;
+    }
+    #hobbies_svg{
+      stroke: @primary;
+    }
+    p{
+      color: @primary;
+    }
+  }
+}
+.congratulations{
+  background-color: @bg;
+  h2{
+    color: @alternative;
+  }
+  p{
+    color: @warning;
+  }
+}
+
+@media (max-width: 1024px) {
+  
+  .theme_switcher{
+    background-color: @alternative;
+  }  
+  .language_switch{
+    background-color: @alternative;
+  }
+}

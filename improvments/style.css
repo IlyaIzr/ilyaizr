@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+}
+#pc_container {
+  display: flex;
+}
+#pc_container .left_space,
+#pc_container .right_space {
+  position: relative;
+  display: block;
+  width: 12.5%;
+  margin: 0;
+  height: 100px;
+}
+.intro {
+  width: 100%;
+  text-align: center;
+  border-bottom: none;
+  position: static;
+}
+.intro h1 {
+  font-size: 3vw;
+}
+.intro .container {
+  text-align: start;
+}
+.intro h3 {
+  position: relative;
+  bottom: -2.4vw;
+  font-size: 1.5vw;
+  display: inline;
+}
+.intro h3:before {
+  position: relative;
+  display: inline-block;
+  content: " ";
+  width: 26vw;
+  height: 0.25vw;
+  background-color: red;
+}
+.intro h3:after {
+  position: relative;
+  display: inline-block;
+  content: " ";
+  width: 26vw;
+  height: 0.25vw;
+  background-color: green;
+}
+.intro #starting_svg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 13vw;
+}
+.options .option {
+  font-size: 2.5vw;
+  line-height: 3.8vw;
+  margin-left: 3vw;
+}
+.options svg {
+  position: absolute;
+  width: 100%;
+  height: 5vw;
+}

@@ -1,0 +1,67 @@
+*{margin: 0;}
+
+#pc_container{
+  display: flex;
+  .left_space, .right_space{
+    position: relative;
+    display: block;
+    width: 12.5%;
+    margin: 0;
+    height: 100px;
+  }
+}
+.intro{
+  width: 100%;
+  text-align: center;
+  border-bottom: none;
+  position: static;
+  h1{
+    font-size: 3vw;
+  }
+  .container{
+    text-align: start;
+  }
+  h3{
+    position: relative;
+    bottom: -2.4vw;
+    font-size: 1.5vw;
+    display: inline;
+    &:before{
+      position: relative;
+      display: inline-block;
+      content: " ";
+      width: 26vw;
+      height: .25vw;
+      background-color: red;
+    }
+    &:after{
+      position: relative;
+      display: inline-block;
+      content: " ";
+      width: 26vw;
+      height: .25vw;
+      background-color: green;
+    }
+  }
+  #starting_svg{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 13vw;
+  }
+}
+
+.options{
+  .option{
+    font-size: 2.5vw;
+    line-height: 3.8vw;
+    margin-left: 3vw;
+  }
+  svg{
+    position: absolute;
+    width: 100%;
+    height: 5vw;
+  }
+}

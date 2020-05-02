@@ -1,0 +1,252 @@
+.bg_color {
+  color: #161616;
+  stroke: #161616;
+}
+.primary_color {
+  color: #D6EF91;
+  stroke: #D6EF91;
+}
+.secondary_color {
+  color: #ADAEFE;
+  stroke: #ADAEFE;
+}
+.warning_color {
+  color: #EEBE4F;
+  stroke: #EEBE4F;
+}
+.alternative_color {
+  color: #F5BAF4;
+  stroke: #F5BAF4;
+}
+.comment_color {
+  color: #7c7c7c;
+  stroke: #7c7c7c;
+}
+body {
+  background-color: #161616;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #D6EF91;
+  outline: 1px solid #F5BAF4;
+}
+#svg_container_1 #welcome {
+  color: #161616;
+}
+#svg_container_1 svg {
+  fill: #D6EF91;
+  stroke: #D6EF91;
+}
+#svg_container_1 .language_line {
+  border-top: 0.25vw solid #161616;
+  border-left: 0.25vw solid #161616;
+}
+#svg_container_1 .theme_line {
+  border-top: 0.25vw solid #161616;
+  border-right: 0.25vw solid #161616;
+}
+#svg_container_1 .theme_switcher {
+  color: #161616;
+}
+#svg_container_1 .theme_switcher:hover {
+  text-shadow: 15px 34px 35px whitesmoke;
+}
+.language_switch label {
+  color: #161616;
+}
+.language_switch label:hover {
+  text-shadow: 0.5px 0.2px 1px #161616;
+}
+.language_switch .options {
+  background-color: #D6EF91;
+}
+.language_switch .options a:visited {
+  color: #161616;
+  opacity: 0.9;
+}
+.language_switch .options a:hover {
+  text-shadow: 0.5px 0.2px 1px #161616;
+}
+.services_title_container {
+  border-left: 0.25vw solid #F5BAF4;
+  border-bottom: 0.25vw solid #F5BAF4;
+  color: #F5BAF4;
+}
+.services_title_container h2 {
+  color: #F5BAF4;
+}
+.intro {
+  color: #D6EF91;
+  border-right: 0.25vw solid #D6EF91;
+  border-bottom: 0.25vw solid #D6EF91;
+}
+.intro .intro_prefix {
+  color: #7c7c7c;
+}
+.intro .intro_comment {
+  color: #D6EF91;
+}
+.left_offset_container .grey_dude {
+  border-left: 0.25vw solid #7c7c7c;
+  opacity: 0.1;
+}
+.services {
+  border-left: 0.25vw solid #F5BAF4;
+  color: #F5BAF4;
+}
+.services h2 {
+  color: #F5BAF4;
+}
+.services .container .services_options {
+  color: #F5BAF4;
+}
+.services .container .services_comment {
+  color: #7c7c7c;
+}
+.services .container #latter_phrase1 {
+  color: #D6EF91;
+}
+.services .container #latter_phrase2 {
+  color: #D6EF91;
+}
+.improvments {
+  color: #F5BAF4;
+}
+.improvments h2 {
+  color: #F5BAF4;
+}
+.improvments h2.headline {
+  background-color: #161616;
+}
+.improvments .improvments_option {
+  color: #D6EF91;
+}
+.improvments .improvments_comment {
+  color: #7c7c7c;
+}
+.improvments .improvments_expand {
+  color: #7c7c7c;
+}
+.improvments .improvments_expand a {
+  color: #7c7c7c;
+}
+.improvments .improvments_expand a:visited {
+  color: #7c7c7c;
+}
+.improvments .headline_prefix {
+  color: #F5BAF4;
+}
+.improvments .headline_postfix {
+  color: #7c7c7c;
+}
+.skills .skills_option {
+  color: #D6EF91;
+}
+.skills .skills_comment {
+  color: #7c7c7c;
+}
+.skills .skills_p {
+  color: #7c7c7c;
+}
+.work_process h2 {
+  color: #EEBE4F;
+}
+.work_process .node h3 {
+  color: #EEBE4F;
+}
+.work_process .node p {
+  color: #D6EF91;
+}
+.calendar h2 {
+  color: #EEBE4F;
+}
+.calendar .calendar_scroller .day_cell {
+  color: #EEBE4F;
+}
+.calendar .calendar_scroller .busy {
+  color: #7c7c7c;
+}
+.calendar .calendar_scroller .vacant[data-tooltip]:before {
+  color: #EEBE4F;
+}
+.calendar .calendar_scroller::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.623);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.623);
+  background-color: #ADAEFE;
+}
+.calendar .calendar_scroller::-webkit-scrollbar {
+  width: 12px;
+  background-color: #7c7c7c;
+}
+.calendar .calendar_scroller::-webkit-scrollbar-thumb {
+  background-color: #EEBE4F;
+}
+.prices {
+  border-left: 0.25vw solid #7c7c7c17;
+  color: #7c7c7c17;
+}
+.prices h2 {
+  color: #EEBE4F;
+}
+.prices .description {
+  color: #ADAEFE;
+}
+.prices .price {
+  color: #D6EF91;
+}
+.prices .odd .description {
+  color: #EEBE4F;
+}
+.prices .odd .price {
+  color: #ADAEFE;
+}
+.examples h2 {
+  color: #F5BAF4;
+}
+.examples .description {
+  color: #ADAEFE;
+}
+.examples .adresses {
+  color: #EEBE4F;
+}
+.examples .adresses a {
+  color: #EEBE4F;
+}
+.examples .adresses a:visited {
+  opacity: 1;
+}
+.other {
+  background-color: #161616;
+}
+.other h2 {
+  color: #ADAEFE;
+}
+.other .bio p {
+  color: #D6EF91;
+}
+.other .hobbies h3 {
+  color: #ADAEFE;
+}
+.other .hobbies #hobbies_svg {
+  stroke: #D6EF91;
+}
+.other .hobbies p {
+  color: #D6EF91;
+}
+.congratulations {
+  background-color: #161616;
+}
+.congratulations h2 {
+  color: #F5BAF4;
+}
+.congratulations p {
+  color: #EEBE4F;
+}
+@media (max-width: 1024px) {
+  .theme_switcher {
+    background-color: #F5BAF4;
+  }
+  .language_switch {
+    background-color: #F5BAF4;
+  }
+}

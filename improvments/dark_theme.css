@@ -1,0 +1,27 @@
+.bg_color {
+  color: #161616;
+  stroke: #161616;
+}
+.primary_color {
+  color: #D6EF91;
+  stroke: #D6EF91;
+}
+.secondary_color {
+  color: #ADAEFE;
+  stroke: #ADAEFE;
+}
+.warning_color {
+  color: #EEBE4F;
+  stroke: #EEBE4F;
+}
+.alternative_color {
+  color: #F5BAF4;
+  stroke: #F5BAF4;
+}
+.comment_color {
+  color: #7c7c7c;
+  stroke: #7c7c7c;
+}
+.intro h3 {
+  background-color: #161616;
+}
