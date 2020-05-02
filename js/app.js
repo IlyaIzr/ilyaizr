@@ -22,9 +22,18 @@ function readCookie(name) {
 }
 let lang_cookie = readCookie('lang');
 
+function expiretime(){	
+	const now = new Date();
+	const time = now.getTime();
+  const expireTime = time + 1000*60*60*24*30;
+	now.setTime(expireTime);
+	return now.toGMTString();
+}
+const time_string_GMT = expiretime();
+
 theme_switcher.addEventListener('click', function(){
 	if (readCookie('theme') == 'light') {		
-		document.cookie = "theme=dark;";
+		document.cookie = "theme=dark; expires="+time_string_GMT+";";
 		theme_stylesheet.href = "less/dark_theme.css";
 		if (lang_cookie == 'ru'){
 		theme_switcher_text.textContent = "к светлой теме";}
@@ -33,7 +42,7 @@ theme_switcher.addEventListener('click', function(){
 		}
 		console.log(readCookie('theme') + "Case 1 from light to dark")
   } else {
-		document.cookie = "theme=light;";
+		document.cookie = "theme=light; expires="+time_string_GMT+";";
 		theme_stylesheet.href = "less/light_theme.css";
 		if (lang_cookie == 'ru'){
 			theme_switcher_text.textContent = "к тёмной теме";}
